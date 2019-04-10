@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.SearchFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ten_dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center"
+        android:hint="Search"
+        android:textSize="@dimen/large_text_size" />
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_action"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtAdventure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_adventure"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtComedy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_comedy"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtDocumentry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_documentary"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtDrama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_drama"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtHorror"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_horror"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtInternational"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_international"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtRomantic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_romantic"
+                android:textSize="@dimen/large_text_size" />
+
+            <TextView
+                android:id="@+id/txtThrillers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/ten_dp"
+                android:text="@string/title_thrillers"
+                android:textSize="@dimen/large_text_size" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

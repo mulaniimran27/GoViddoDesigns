@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.BaseActivity">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:actionLayout="@layout/layout_search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/changeTextColor"
+        android:title="@string/action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add_movie"
+        android:actionLayout="@layout/layout_add_video"
+        android:icon="@drawable/ic_add_video"
+        android:iconTint="@color/changeTextColor"
+        android:title="Add Movie"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_notification1"
+        android:actionLayout="@layout/layout_nitification"
+        android:icon="@drawable/ic_notification"
+        android:iconTint="@color/changeTextColor"
+        android:title="Notification"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GoViddo</string>
+
+    <string name="promotion_line">Watch awesome shows and movies for free.</string>
+
+    <string name="new_register"><u>New to GoViddo? Sign up now.</u></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add Movie</string>
+    <string name="action_notification">Notification</string>
+
+
+    <string name="action_sort_by_date">Sort By Date</string>
+    <string name="action_sort_by_name">Sort By Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="Setting">Setting</string>
+    <string name="Signout">Sign Out</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_home"><font size="10">Home</font></string>
+    <string name="title_subscription"><font size="10">Subscription</font></string>
+    <string name="title_recent"><font size="10">Recent</font></string>
+    <string name="title_more"><font size="10">More</font></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_balance_avl">Balance Acailable</string>
+    <string name="title_acc_details">Account Details</string>
+    <string name="title_total_investment">Total Investment</string>
+    <string name="title_total_earning">Total Earning</string>
+    <string name="title_lst_acc_bal">Last Account Balance</string>
+    <string name="title_posted_transactions">Posted Transaction</string>
+    <string name="title_movie_name">Movie Name</string>
+    <string name="title_category">Category</string>
+    <string name="title_long_des">Movie Long description</string>
+    <string name="title_select_movie">Select Movie</string>
+    <string name="btn_upload">Upload</string>
+    <string name="title_action"><u>Action</u></string>
+    <string name="title_adventure"><u>Adventure</u></string>
+    <string name="title_comedy"><u>Comedy</u></string>
+    <string name="title_documentary"><u>Documentary</u></string>
+    <string name="title_drama"><u>Drama</u></string>
+    <string name="title_horror"><u>Horror</u></string>
+    <string name="title_international"><u>International</u></string>
+    <string name="title_romantic"><u>Romantic</u></string>
+    <string name="title_thrillers"><u>Thrillers</u></string>
+    <string name="title_share_link">Share Link</string>
+    <string name="action_share">Share</string>
+    <string name="title_description">Description</string>
+    <string name="title_subscribe">Subscribe</string>
+    <string name="title_invest">Invest</string>
+    <string name="title_suggestions">Suggestions</string>
+
+</resources>
